@@ -17,24 +17,24 @@
     docker-compose up
     ```
 
-    ## Frontend
+## Frontend
 
-    7. cd into the frontend folder using the following command on a different terminal:
+7. cd into the frontend folder using the following command on a different terminal:
 
-    ```bash
-    cd frontend
-    ```
+   ```bash
+   cd frontend
+   ```
 
-    8.  Run the following command in the terminal to run the frontend:
+8. Run the following command in the terminal to run the frontend:
 
-    ```bash
-    npm install
-    npm start
-    ```
+   ```bash
+   npm install
+   npm start
+   ```
 
-    9.  The application's frontend will be running on http://localhost:3000
+9. The application's frontend will be running on http://localhost:3000
 
-    10. Subsequent runs can be done with the following command:
+10. Subsequent runs can be done with the following command:
 
     ```bash
     npm start
