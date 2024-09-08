@@ -1,3 +1,7 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/Pekotaker/weather-forecast-be
+
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Pekotaker/weather-forecast-fe.git
