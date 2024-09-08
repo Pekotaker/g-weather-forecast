@@ -1,0 +1,33 @@
+version: "3"
+services:
+  backend:
+    build: ./backend
+    command: bash -c "
+      uvicorn app.main:app
+      --host 0.0.0.0 --port 8000
+      --lifespan=on --use-colors
+      --reload
+      "
+    ports:
+      - "8000:8000"
+    # depends_on:
+    #   - db
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend:/app
+
+  # db:
+  #   image: postgres:13
+  #   environment:
+  #     POSTGRES_USER: ${SQL_USER}
+  #     POSTGRES_PASSWORD: ${SQL_PASS}
+  #     POSTGRES_DB: ${SQL_DB}
+  #     POSTGRES_HOST: ${SQL_HOST}
+  #   ports:
+  #     - "${SQL_PORT}:5432"
+  #   volumes:
+  #     - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:
