@@ -43,4 +43,4 @@
 # Online
 
 1.  The backend application is deployed on Render and can be accessed at https://g-weather-forecast-v0-1.onrender.com
-2.  The frontend application is not yet deployed online.
+2.  The frontend application is deployed on Render and can be accessed at https://weather-forecast-fe-mqil.onrender.com/
