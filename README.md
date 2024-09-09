@@ -25,16 +25,18 @@
    cd frontend
    ```
 
-8. Run the following command in the terminal to run the frontend:
+8. Change the `SERVER_BASE_URL` in src/config.js to `http://localhost:8000`
+
+9. Run the following command in the terminal to run the frontend:
 
    ```bash
    npm install
    npm start
    ```
 
-9. The application's frontend will be running on http://localhost:3000
+10. The application's frontend will be running on http://localhost:3000
 
-10. Subsequent runs can be done with the following command:
+11. Subsequent runs can be done with the following command:
 
     ```bash
     npm start
